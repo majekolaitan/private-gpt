@@ -1,22 +1,22 @@
 # 🔒 PrivateGPT 📑
 
 ## My Install Steps
-install ollama
-ollama pull mistral
-ollama pull nomic-embed-text
-ollama serve
-git clone https://github.com/zylon-ai/private-gpt
-cd private-gpt
-install python 3.11.exe
-Install pyenv-win
-pyenv install 3.11.9
-pyenv local 3.11
-python -m venv venv
-.\venv\Scripts\activate
-Install Poetry (Windows Powershell) `(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -`
-poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"
-$env:PGPT_PROFILES="ollama"
-make run
+- install ollama
+- ollama pull mistral
+- ollama pull nomic-embed-text
+- ollama serve
+- git clone https://github.com/zylon-ai/private-gpt
+- cd private-gpt
+- install python 3.11.exe
+- Install pyenv-win
+- pyenv install 3.11.9
+- pyenv local 3.11
+- python -m venv venv
+- .\venv\Scripts\activate
+- Install Poetry (Windows Powershell) `(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -`
+- poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"
+- $env:PGPT_PROFILES="ollama"
+- make run
 
 
 
